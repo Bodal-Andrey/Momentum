@@ -1,0 +1,40 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    min-height: 160px;
+    padding: 20px;
+}
+
+.change-quote {
+    margin-bottom: 30px;
+    background-image: url("../assets/svg/reload.svg");
+}
+
+.quote {
+    min-height: 32px;
+}
+
+.author {
+    min-height: 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.git-link {
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+
+.main-footer__year {
+    font-size: 20px;
+}

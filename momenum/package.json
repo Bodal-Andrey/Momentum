@@ -1,0 +1,13 @@
+{
+  "name": "momenum",
+  "description": "My new js appliaction",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "rss-scripts start",
+    "build": "rss-scripts build"
+  },
+  "devDependencies": {
+    "rss-scripts": "^0.2.4"
+  }
+}

@@ -1,0 +1,25 @@
+import './sass/style.scss';
+import showTime from './js/time';
+import showGreeting from './js/greeting';
+import { setName, getName } from './js/name';
+import { setBg, getSlide } from './js/images';
+import { getWeather, getCityStorage, setCityStorage, getCity } from './js/weather';
+import { getQuotes, changeQuotes } from './js/quotes';
+import { getPlayList, getPlayButton, getPrevButton, getNextButton } from './js/player';
+
+showTime();
+showGreeting();
+setName();
+getName();
+setBg();
+getSlide();
+getCityStorage();
+setCityStorage();
+getWeather();
+getCity();
+getQuotes();
+changeQuotes();
+getPlayList();
+getPlayButton();
+getPrevButton();
+getNextButton();

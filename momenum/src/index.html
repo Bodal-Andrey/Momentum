@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./assets/favicon.ico" rel="shortcut icon" />
+    <title>momentum</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="player">
+            <div class="player-controls">
+                <button class="play-prev player-icon"></button>
+                <button class="play player-icon"></button>
+                <button class="play-next player-icon"></button>
+            </div>
+            <ul class="play-list"></ul>
+        </div>
+        <div class="weather">
+            <input type="text" class="city" />
+            <i class="weather-icon owf"></i>
+            <div class="weather-error"></div>
+            <div class="description-container">
+                <span class="temperature"></span>
+                <span class="weather-description"></span>
+            </div>
+            <div class="wind"></div>
+            <div class="humidity"></div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="slider-icons">
+            <button class="slide-prev slider-icon"></button>
+            <button class="slide-next slider-icon"></button>
+        </div>
+        <time class="time"></time>
+        <date class="date"></date>
+        <div class="greeting-container">
+            <span class="greeting"></span>
+            <input type="text" class="name" placeholder="[Enter name]" />
+        </div>
+    </main>
+    <footer class="footer">
+        <button class="change-quote"></button>
+        <div>
+            <div class="quote"></div>
+            <div class="author"></div>
+        </div>
+        <div class="footer-bottom">
+            <a class="footer-bottom__link logo-link" href="https://rs.school/js/" title="RSSchool account"
+                target="_blank">
+                <img class="logo-link__picture" src="./assets/svg/rs_school_js.svg" width="100" height="100" alt="Logo">
+            </a>
+            <a class="footer-bottom__link git-link" href="https://github.com/Bodal-Andrey" title="GitHub account"
+                target="_blank">My GitHub</a>
+            <p class="main-footer__year">2021</p>
+        </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+
+</html>
